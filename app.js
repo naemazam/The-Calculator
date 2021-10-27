@@ -47,7 +47,7 @@
 
     function log()
     {
-        screen.value=Math.log(screen.value);
+        screen.value=Math.log10(screen.value);
     }
 
     function pi()
@@ -57,7 +57,7 @@
 
     function e()
     {
-        screen.value=2.71828182846;
+        screen.value=Math.exp(screen.value);
     }
 
     function fact()
